@@ -1,0 +1,169 @@
+
+.heading {
+    justify-content: space-between;
+    display: flex;
+}
+
+.add-icon {
+    width: 50px;
+    height: 50px;
+    fill:#D4D4EC;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    background-color:#E3E3F3;
+    color: #8E8C8E;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: centre;
+    justify-content: center;
+}
+
+.main{
+    background: white;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: none;
+    text-align: center;
+    color: #B3B3EF;
+}
+
+.back-link {
+    color: #8787c1;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color:#8E8C8E;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+}
+
+
+.progress-bar {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #B3b3EF;
+    width: 33%;
+    height: 10px;
+    border-radius: 8px;
+}
+
+hr {
+    display: block;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    /* background-color: #fff; */
+    padding: 15px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+    display: flex;
+    /* border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+/* .task-checkbox {
+    margin-right: 10px;
+    border-radius: 100%;
+    background: #D0EA85;
+    color: #D0EA85;
+*/
+
+input [type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 200%;
+}
+
+/* input [type="checkbox"]:checked {
+    background-color: #b5ea81;
+    background-image: [12:30] Oghenetejiri Akpede
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 12px;
+} */
+
+.recurring-tasks {
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.recurring-tasks1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recurring-task-btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: #8E8C8E;
+    margin: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 60px;
+}
+
+#one {
+    background-color: #f5ED84;
+    
+}
+
+#two {
+    background-color:#D0EA85;
+    
+}
+
+
+#three {
+    background-color: #FBACAC;
+    
+}
+
+
+#four {
+    background-color:  #B3B3E5;
+
+}
+
+   
